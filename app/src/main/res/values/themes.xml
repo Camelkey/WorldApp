@@ -4,19 +4,12 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
 
-        <item  name="colorPrimary">#778899</item>
-        <item name="colorPrimaryVariant">#F5F5F5</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <item name="colorSecondary">@color/white</item>
-        <item name="colorSecondaryVariant">@color/white</item>
-        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorPrimary">@color/twitter</item>
+        <item name="colorPrimaryDark">@color/twitter</item>
+        <item name="colorAccent">@color/twitter</item>
+
+        <item name="colorSecondaryVariant">@color/twitter</item>
+
     </style>
-
-
-
-
-
-
-
     <style name="Theme.WorldApp" parent="Base.Theme.WorldApp" />
 </resources>

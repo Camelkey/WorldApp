@@ -13,66 +13,94 @@
     tools:context=".MainActivity">
 
 
-    <EditText
-        android:id="@+id/email"
+    <Button
+        android:id="@+id/signUpBtn"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="28dp"
-        android:background="@drawable/custom_background"
-        android:drawablePadding="5dp"
-        android:hint="Adınız/Soyadınız"
-        android:inputType="textEmailAddress"
-        android:padding="8dp"
-        android:selectAllOnFocus="true"
-        android:textAllCaps="false"
-        android:textColor="@color/graylight"
-        android:textStyle="italic"
+        android:layout_height="52dp"
+        android:onClick="signUp"
+        android:text="Kaydol"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <EditText
+        android:id="@+id/password"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_background"
+        android:drawableStart="@drawable/click_mail"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="E-posta"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398" />
+
+    <EditText
+        android:id="@+id/password3"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_background"
+        android:drawableStart="@drawable/click_lock"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:drawableStart="@drawable/people"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_background"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Adınız/Soyadınız"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="210dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="144dp"
-        android:text="Adınız nedir ?"
+        android:layout_width="224dp"
+        android:layout_height="99dp"
+        android:text="WorldApp'e HoşGeldiniz"
         android:textAlignment="center"
-        android:textAllCaps="false"
         android:textColor="@color/whitebb"
-        android:textSize="30dp"
-        android:textStyle="bold|italic"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/firstBtn"
-        android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:layout_marginBottom="228dp"
-        android:onClick="goToUserName"
-        android:text="İleri"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="278dp"
-        android:layout_height="125dp"
-        android:layout_marginTop="4dp"
-        android:text="WorldApp'e HoşGeldiniz"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/whitebb"
-        android:textSize="40dp"
-        android:textStyle="italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

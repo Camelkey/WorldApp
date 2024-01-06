@@ -2,18 +2,17 @@ package com.example.worldapp;
 
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.firebase.auth.FirebaseAuth;
 
 
 public class MainActivity extends AppCompatActivity {
 
 
-
+    FirebaseAuth auth;
 
 
     @SuppressLint("MissingInflatedId")
@@ -23,15 +22,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        Button firstBtn = findViewById(R.id.firstBtn) ;
-
-        firstBtn.setOnClickListener(new  View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent  = new Intent(MainActivity.this, usernameScreen.class);
-                startActivity(intent);
-            }
-        });
             }
 
                 }

@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "488326944791",
-    "project_id": "projectchat-6c380",
-    "storage_bucket": "projectchat-6c380.appspot.com"
+    "project_number": "374993974951",
+    "project_id": "worldapp-cce46",
+    "storage_bucket": "worldapp-cce46.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:488326944791:android:7cb4540c5d74fde0542452",
+        "mobilesdk_app_id": "1:374993974951:android:c4024cd4f44762a5e34d82",
         "android_client_info": {
           "package_name": "com.example.worldapp"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAYsOPeW3mnWF-Nm2KnfRwLphKejTNgxfA"
+          "current_key": "AIzaSyBRSKqDmEpkRyECBkDvVKj-cV5hwYNOw-8"
         }
       ],
       "services": {

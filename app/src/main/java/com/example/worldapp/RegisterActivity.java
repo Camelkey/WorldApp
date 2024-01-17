@@ -55,7 +55,7 @@ public class RegisterActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             // Succsessful
-                            registerBtn = findViewById(R.id.signUpBtn);
+                            registerBtn = findViewById(R.id.loginBtn);
                             registerBtn.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View v) {

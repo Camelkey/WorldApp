@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/twitter"
+    android:background="#26313A"
     tools:context=".HobyScreen">
 
 
@@ -612,6 +612,21 @@
                     android:layout_weight="1"
                     android:background="@drawable/hoby"
                     android:text="Travel" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="40dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/registerButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Register" />
             </LinearLayout>
 
 

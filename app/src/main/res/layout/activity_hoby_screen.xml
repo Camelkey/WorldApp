@@ -4,14 +4,617 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/twitter"
     tools:context=".HobyScreen">
 
-    <CheckedTextView
-        android:id="@+id/checkedTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Software"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="142dp" />
 
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="606dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sportsCategory"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:text="Sports"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/whitebb"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/soccer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Soccer" />
+
+                <CheckBox
+                    android:id="@+id/Basketball"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Basketball" />
+
+                <CheckBox
+                    android:id="@+id/Hiking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Hiking" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="372dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/Fitness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Fitness " />
+
+                <CheckBox
+                    android:id="@+id/Walking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Walking" />
+
+                <CheckBox
+                    android:id="@+id/Swimming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Swimming" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/Boxing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Boxing" />
+
+                <CheckBox
+                    android:id="@+id/Wrestling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Wrestling" />
+
+                <CheckBox
+                    android:id="@+id/MartialArts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Martial Arts" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/softwareCategory"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:text="Prgramming"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/whitebb"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/iOSDev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="iOS Developer" />
+
+                <CheckBox
+                    android:id="@+id/AndroidDev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Android Developer"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">>
+
+                <CheckBox
+                    android:id="@+id/WebDev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="WEb Developer" />
+
+                <CheckBox
+                    android:id="@+id/AI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Artificial Intelligence" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="372dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/GameDev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Game Developer" />
+
+                <CheckBox
+                    android:id="@+id/DevOps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="DevOps"  />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/SoftwareTesting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Software Testing" />
+
+                <CheckBox
+                    android:id="@+id/EmbeddedSystems"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Embedded Systems" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/BlockchainDevelopment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Blockchain Development" />
+
+                <CheckBox
+                    android:id="@+id/Cybersecurity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Cybersecurity" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/UIUXDesign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="UI/UX Design" />
+
+                <CheckBox
+                    android:id="@+id/DataScience"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Data Science" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/RoboticsSoftwareDevelopment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Robotics Software Development"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/DatabaseManagement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Database Management"
+                     />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/musıcCategory"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:text="MUSIC"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/whitebb"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/Pop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Pop" />
+
+                <CheckBox
+                    android:id="@+id/Rock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Rock" />
+
+                <CheckBox
+                    android:id="@+id/Metal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Metal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/HipHop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Hip-Hop" />
+
+                <CheckBox
+                    android:id="@+id/Jazz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Jazz"/>
+
+                <CheckBox
+                    android:id="@+id/Electronic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Electronic" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/aa"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:text="Games and E-sport"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/whitebb"
+                android:textSize="20dp"
+                android:textStyle="bold"  />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/Valorant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Valorant" />
+
+                <CheckBox
+                    android:id="@+id/lol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Leuague of Legends" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/Fortnite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Fortnite" />
+
+                <CheckBox
+                    android:id="@+id/FIFA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="FIFA" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/SpaceCategory"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:text="OTHER"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/whitebb"
+                android:textSize="20dp"
+                android:textStyle="bold"  />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/Sexualitiy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Sexualitiy" />
+
+                <CheckBox
+                    android:id="@+id/politics"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Politics" />
+
+                <CheckBox
+                    android:id="@+id/news"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="News" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <CheckBox
+                    android:id="@+id/religion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Religion"  />
+
+                <CheckBox
+                    android:id="@+id/pets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Pets" />
+
+                <CheckBox
+                    android:id="@+id/relationships"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Relationships" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="358dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+
+                <CheckBox
+                    android:id="@+id/Food"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Food" />
+
+                <CheckBox
+                    android:id="@+id/Design"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Design" />
+
+                <CheckBox
+                    android:id="@+id/travel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hoby"
+                    android:text="Travel" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

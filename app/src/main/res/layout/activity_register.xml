@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:background="@drawable/custom_background"
-        android:drawableStart="@drawable/click_mail"
+        android:drawableStart="@drawable/mail"
         android:drawablePadding="8dp"
         android:ems="10"
         android:hint="E-posta"
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:background="@drawable/custom_background"
-        android:drawableStart="@drawable/click_lock"
+        android:drawableStart="@drawable/lock"
         android:drawablePadding="8dp"
         android:ems="10"
         android:hint="Şifre"
@@ -67,7 +67,7 @@
         app:layout_constraintVertical_bias="0.546" />
 
     <EditText
-        android:id="@+id/password2"
+        android:id="@+id/userName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -75,7 +75,7 @@
         android:drawableStart="@drawable/people"
         android:drawablePadding="8dp"
         android:ems="10"
-        android:hint="Adınız/Soyadınız"
+        android:hint="Kullanıcı Adı"
         android:inputType="textPersonName"
         android:padding="8dp"
         android:textSize="20dp"
